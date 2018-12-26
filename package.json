@@ -1,0 +1,21 @@
+{
+  "name": "to-trump-case",
+  "version": "1.0.0",
+  "description": "Converts a string to a Trump tweet.",
+  "main": "toTrumpCase.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marcdavi-es/to-trump-case.git"
+  },
+  "keywords": [
+    "string",
+    "Trump",
+    "Donald"
+  ],
+  "author": "Marc Davies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcdavi-es/to-trump-case/issues"
+  },
+  "homepage": "https://github.com/marcdavi-es/to-trump-case#readme"
+}
