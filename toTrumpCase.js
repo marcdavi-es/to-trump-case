@@ -29,9 +29,8 @@ function toTrumpCase (string) {
 	var inputString = string || this;
   return inputString.split(' ')
     .concat(getRandomItemFrom(nonsense))
-  	.map(function (item, index, array) {
-      var arrayLength = array.length;
-      return item.length > 2 && Math.random()*arrayLength < arrayLength/5
+  	.map(function (item) {
+      return item.length > 2 && Math.random() < 0.2
         ? item.toUpperCase()
         : item;
     })
